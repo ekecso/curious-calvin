@@ -1,3 +1,18 @@
+html {
+    font-family: 'Mandali', sans-serif;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+}
+
+.main-content {
+    position: relative;
+    top: 58px;
+}
+
+/* Nav Bar */
 header {
     position: fixed;
     width: 100%;
@@ -21,4 +36,33 @@ header {
     font-size: 24px;
     padding: 0 15px;
     display: inline-flex;
+}
+
+/* Banner */
+#banner {
+    background-image: url('../images/banner.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    height: 600px;
+    justify-content: right;
+}
+
+#banner-text {
+    padding-top: 100px;
+    padding-right: 25px;
+}
+
+#banner-logo {
+    font-family: 'Indie Flower';
+    font-size: 72px;
+    padding-top: 75px;
+    font-weight: bold;
+}
+
+#banner-tagline {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    text-align: right;
+    color: #787878;
 }
