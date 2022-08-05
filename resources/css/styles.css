@@ -1,0 +1,24 @@
+header {
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+.nav {
+    font-family: 'Indie Flower';
+    display: flex;
+    align-items: center;
+    padding: 10px 10px 0;
+}
+
+#nav-logo {
+    font-size: 48px;
+    flex: 1;
+    padding-left: 15px;
+}
+
+.nav-links li {
+    font-size: 24px;
+    padding: 0 15px;
+    display: inline-flex;
+}
