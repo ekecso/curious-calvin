@@ -2,9 +2,20 @@ html {
     font-family: 'Mandali', sans-serif;
 }
 
-.container {
+h2 {
+    font-family: 'Indie Flower', sans-serif;
+    font-size: 48px;
+    text-align: center;
+    font-weight: bold;
+    padding-bottom: 32px;
+}
+
+.section-header {
+    display: block;
     width: 100%;
-    display: flex;
+}
+
+.container {
 }
 
 .main-content {
@@ -58,6 +69,7 @@ header {
     font-size: 72px;
     padding-top: 75px;
     font-weight: bold;
+    text-align: right;
 }
 
 #banner-tagline {
@@ -65,4 +77,29 @@ header {
     font-size: 24px;
     text-align: right;
     color: #787878;
+}
+
+/* Shop Section */
+#shop {
+    align-items: center;
+    justify-content: center;
+    padding: 32px 48px;
+}
+
+.products {
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+.product-category {
+    width: 30%;
+}
+
+.category-img {
+    overflow: hidden;
+
+}
+
+.category-img img {
+    width: 100%;
 }
