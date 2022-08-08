@@ -118,7 +118,7 @@ header {
 }
 
 .product-category:hover {
-    background-color: #F5F5F5;
+    background-color: #E8E8E8;
 }
 
 .category-img {
@@ -137,7 +137,7 @@ header {
 #blog {
     align-items: center;
     Justify-content: center;
-    background-color: #F5F5F5;
+    background-color: #E8E8E8;
     padding: 3rem;
 }
 
@@ -224,4 +224,11 @@ header {
 .team-name {
     padding-top: 0.5rem;
     font-size: 1.5rem;
+}
+
+/* Footer */
+#copyright {
+    font-family: 'Open Sans', sans-serif;
+    text-align: right;
+    padding: 0.5rem;
 }
